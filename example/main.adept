@@ -1,0 +1,12 @@
+
+import basics
+import "../base64/base64.adept"
+
+func main {
+    message String = "Hello World"
+    encoded String = base64\encode(message)
+
+    printf("Original Message: \t%S\n", message)
+    printf("Encoded  Message: \t%S\n", encoded)
+    printf("Decoded  Message: \t%S\n", base64\decode(encoded))
+}

@@ -1,0 +1,10 @@
+{
+    "name": "Base64",
+    "version": "1.0.0",
+    "minSpecVersion": 1,
+    "host": "https://raw.githubusercontent.com/IsaacShelton/base64/master/base64/",
+    "procedure": [
+        {"folder": "base64"},
+        {"file": "base64/base64.adept", "from": "base64.adept"}
+    ]
+}
